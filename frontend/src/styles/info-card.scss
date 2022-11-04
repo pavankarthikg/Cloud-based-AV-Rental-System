@@ -1,0 +1,15 @@
+.info-card {
+  padding: 2rem;
+  background: black;
+  //border-radius: 2px;
+  //box-shadow: 0 8px 5px 6px #ebebeb;
+  .label {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .value {
+    font-size: 2rem;
+    color: whitesmoke;
+  }
+}

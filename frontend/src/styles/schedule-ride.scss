@@ -1,0 +1,21 @@
+.schedule-ride-form-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #CEFCF4;
+  .schedule-ride-content {
+    max-width: 40rem;
+    min-width: 40rem;
+    padding: 2rem;
+    background: gray;
+    box-shadow: 3px 9px 11px 1px #a59b96;
+    border: 2px solid;
+    .text-center {
+      margin-bottom: 3rem;
+    }
+    .button-cont {
+      margin-top: 2.5rem;
+    }
+  }
+}

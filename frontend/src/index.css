@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Verdana', sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+[role="main"] {
+  padding-top: 60px; /* Space for fixed navbar */
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main.main-container {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-group label {
+  width: 25%;
+  text-transform: uppercase;
+}
+
+.alert.alert-danger {
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+}
+
+.d-flx {
+  display: flex;
+}
+
+.flx-1 {
+  flex: 1;
+}
+
+.jc-bet {
+  justify-content: space-between;
+}
+
+.ant-checkbox-inner::after {
+  left: 25.5%!important;
+}
+
+.ant-checkbox-inner {
+  width: 26px!important;
+  height: 26px!important;
+}
+
+.btn.btn-info {
+  padding: 0.7rem 5rem;
+  text-transform: uppercase;
+  background: black!important;
+  border: 1px solid #4682b4!important;
+}
+
+.btn.btn-info:disabled {
+  background: #4682b4!important;
+  border: 1px solid #4682b4!important;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.h100 .card {
+  height: 100%;
+}
+
+.monte {
+  font-family: 'Verdana', serif!important;
+}
